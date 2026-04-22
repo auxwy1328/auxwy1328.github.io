@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ $p := . }}
+<div class="art">
+  <nav class="bread">
+    <a href="/">首页</a> <span style="margin:0 6px;color:var(--text3)">›</span>
+    {{ with $p.CurrentSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> <span style="margin:0 6px;color:var(--text3)">›</span>{{ end }}
+    <span style="color:var(--text)">{{ $p.Title }}</span>
+  </nav>
+
+  <h1 class="art-title">{{ $p.Title }}</h1>
+
+  <div class="art-meta">
+    <span>📅 {{ $p.Date.Format "2006-01-02" }}</span>
+    <span>⏱ 约 {{ div (len $p.RawContent) 400 }} 分钟</span>
+    {{ with $p.Params.category_label }}<span class="t">{{ . }}</span>{{ end }}
+    {{ with $p.Params.kd }}<span class="tw">KD {{ . }} · {{ $p.Params.priority | title }}优先级</span>{{ end }}
+  </div>
+
+  {{ with $p.Params.dl_app }}{{ partial "download-card.html" (dict "slug" . "Site" $p.Site) }}{{ end }}
+
+  {{ if gt (len $p.TableOfContents) 0 }}
+  <div class="toc">
+    <div class="toc-hd">📑 文章目录</div>
+    {{ $p.TableOfContents }}
+  </div>
+  {{ end }}
+
+  <div class="ct">
+    {{ $p.Content }}
+  </div>
+
+  {{ with $p.Params.dl_app }}
+  <div class="dl-card-end">
+    <div class="dl-card-end-title">📥 立即下载</div>
+    <div class="dl-card-end-desc">看完教程了？现在就下载体验吧</div>
+    {{ partial "download-card.html" (dict "slug" . "Site" $p.Site) }}
+  </div>
+  {{ end }}
+
+  {{ with $p.Params.related }}
+  <div class="related">
+    <h2>📖 相关文章推荐</h2>
+    <div class="rg">
+      {{ range first 6 . }}
+      <div class="rc">
+        <div class="rc-cat">{{ .cat }}</div>
+        <h4>{{ .title }}</h4>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+</div>
+{{ end }}
