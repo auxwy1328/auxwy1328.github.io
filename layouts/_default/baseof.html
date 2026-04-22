@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="stylesheet" href="/css/style.css">
+  {{ template "_internal/opengraph.html" . }}
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  {{ with .Params.og_image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+</head>
+<body>
+  <div class="progress" id="prog"></div>
+  {{ partial "header.html" . }}
+  <div class="site">
+    {{ block "main" . }}{{ end }}
+  </div>
+  {{ partial "footer.html" . }}
+  <button class="btt" id="btt">↑</button>
+  {{ partial "schema.html" . }}
+  <script src="/js/main.js"></script>
+</body>
+</html>
