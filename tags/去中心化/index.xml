@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>去中心化 on 加密聊客</title>
+    <link>https://yourdomain.com/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/</link>
+    <description>Recent content in 去中心化 on 加密聊客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourdomain.com/tags/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Session 匿名聊天下载 — 2026年完全去中心化的私密通讯工具安装配置教程</title>
+      <link>https://yourdomain.com/international/session-download/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yourdomain.com/international/session-download/</guid>
+      <description>&lt;h2 id=&#34;session-是什么&#34;&gt;Session 是什么？&lt;/h2&gt;&#xA;&lt;p&gt;Session 是一款基于去中心化网络的加密聊天软件，由 Oxen Project（原 Loki Project）团队开发。它的核心特点可以用一个字概括——&lt;strong&gt;匿名&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;Session 不要求你提供手机号、邮箱、用户名或任何个人信息。当你第一次打开 Session 时，它会自动生成一个随机的 Session ID（类似 &lt;code&gt;05...&lt;/code&gt; 开头的十六位字符串），这就是你在 Session 网络中的唯一身份。没有密码、没有手机号、没有邮箱——你的身份只是一个无法追溯到你的随机字符串。&lt;/p&gt;&#xA;&lt;p&gt;这种设计理念和大多数加密聊天软件完全不同。Signal 要求手机号、Telegram 要求手机号、WhatsApp 要求手机号——它们多多少少都会和你的真实身份产生关联。而 Session 从源头上切断了这种关联。&lt;/p&gt;&#xA;&lt;h3 id=&#34;session-的技术架构&#34;&gt;Session 的技术架构&lt;/h3&gt;&#xA;&lt;p&gt;Session 基于 Service Node 网络运行，这是一种去中心化的消息路由架构。与传统的中心化服务器模式不同，Session 的消息通过多个 Service Node 中转，每个节点只知道消息的上一跳和下一跳，无法知道消息的发送者和接收者。&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;技术维度&lt;/th&gt;&#xA;          &lt;th&gt;Session&lt;/th&gt;&#xA;          &lt;th&gt;Signal&lt;/th&gt;&#xA;          &lt;th&gt;Telegram&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;网络架构&lt;/td&gt;&#xA;          &lt;td&gt;去中心化（Service Node）&lt;/td&gt;&#xA;          &lt;td&gt;中心化（Signal 服务器）&lt;/td&gt;&#xA;          &lt;td&gt;中心化（Telegram 服务器）&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;注册信息&lt;/td&gt;&#xA;          &lt;td&gt;无需任何个人信息&lt;/td&gt;&#xA;          &lt;td&gt;需要手机号&lt;/td&gt;&#xA;          &lt;td&gt;需要手机号&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;IP 隐藏&lt;/td&gt;&#xA;          &lt;td&gt;✅ 多层加密路由&lt;/td&gt;&#xA;          &lt;td&gt;❌ 服务器可记录 IP&lt;/td&gt;&#xA;          &lt;td&gt;❌ 服务器可记录 IP&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;消息路由&lt;/td&gt;&#xA;          &lt;td&gt;洋葱式多跳&lt;/td&gt;&#xA;          &lt;td&gt;直连服务器&lt;/td&gt;&#xA;          &lt;td&gt;直连服务器&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;元数据保护&lt;/td&gt;&#xA;          &lt;td&gt;✅ 强&lt;/td&gt;&#xA;          &lt;td&gt;⚠️ 收集最少必要信息&lt;/td&gt;&#xA;          &lt;td&gt;❌ 大量元数据收集&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;单点故障&lt;/td&gt;&#xA;          &lt;td&gt;❌ 无（去中心化）&lt;/td&gt;&#xA;          &lt;td&gt;⚠️ 依赖中心服务器&lt;/td&gt;&#xA;          &lt;td&gt;⚠️ 依赖中心服务器&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;div class=&#34;callout&#34;&gt;&#xA;  &lt;strong&gt;💡 提示：&lt;/strong&gt;&#xA;**💡 核心优势：**Session 的去中心化架构意味着没有单点故障、没有中心化服务器可以被攻击或关闭、没有任何机构能够关闭 Session 网络。这与 Threema 等虽然不需要手机号但仍然依赖中心化服务器的模式有本质区别。&#xA;&#xA;&lt;/div&gt;&#xA;&lt;h3 id=&#34;session-的团队背景&#34;&gt;Session 的团队背景&lt;/h3&gt;&#xA;&lt;p&gt;Session 由 Oxen Privacy Tech Pty Ltd 开发，这是一家注册在澳大利亚的隐私技术公司。Oxen 团队从 2016 年开始开发 Loki 网络项目，2020 年更名为 Oxen，Session 是其旗舰产品。团队的核心成员来自澳大利亚的密码学和安全研究领域。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

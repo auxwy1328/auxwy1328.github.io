@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>端到端加密 on 加密聊客</title>
+    <link>https://yourdomain.com/tags/%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%8A%A0%E5%AF%86/</link>
+    <description>Recent content in 端到端加密 on 加密聊客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourdomain.com/tags/%E7%AB%AF%E5%88%B0%E7%AB%AF%E5%8A%A0%E5%AF%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Telegram 私密聊天开启方法 — 2026年端到端加密和阅后即焚设置教程</title>
+      <link>https://yourdomain.com/international/telegram-secret/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yourdomain.com/international/telegram-secret/</guid>
+      <description>&lt;h2 id=&#34;大多数-telegram-用户不知道的秘密聊天功能&#34;&gt;大多数 Telegram 用户不知道的「秘密聊天」功能&lt;/h2&gt;&#xA;&lt;p&gt;Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp），但它有一个鲜为人知的事实：&lt;strong&gt;Telegram 的普通聊天默认不使用端到端加密&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这意味着你每天在 Telegram 上发送的消息，都是以未加密的形式存储在 Telegram 的服务器上的。虽然 Telegram 声称不会主动读取用户消息，但服务器上存储着明文数据。&lt;/p&gt;&#xA;&lt;p&gt;如果你需要真正的端到端加密，必须手动开启 &lt;strong&gt;「秘密聊天」（Secret Chat）&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;h2 id=&#34;秘密聊天-vs-普通聊天核心差异&#34;&gt;秘密聊天 vs 普通聊天：核心差异&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;对比维度&lt;/th&gt;&#xA;          &lt;th&gt;普通聊天&lt;/th&gt;&#xA;          &lt;th&gt;秘密聊天&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;端到端加密&lt;/td&gt;&#xA;          &lt;td&gt;❌ 默认关闭&lt;/td&gt;&#xA;          &lt;td&gt;✅ 始终开启&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;消息存储&lt;/td&gt;&#xA;          &lt;td&gt;Telegram 服务器&lt;/td&gt;&#xA;          &lt;td&gt;仅在本地设备&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;多设备同步&lt;/td&gt;&#xA;          &lt;td&gt;✅ 所有设备&lt;/td&gt;&#xA;          &lt;td&gt;❌ 仅限发起设备&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;云端备份&lt;/td&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;          &lt;td&gt;❌&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;阅后即焚&lt;/td&gt;&#xA;          &lt;td&gt;❌&lt;/td&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;消息转发&lt;/td&gt;&#xA;          &lt;td&gt;✅&lt;/td&gt;&#xA;          &lt;td&gt;❌&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;截图检测&lt;/td&gt;&#xA;          &lt;td&gt;❌&lt;/td&gt;&#xA;          &lt;td&gt;⚠️ 部分支持&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;div class=&#34;callout&#34;&gt;&#xA;  &lt;strong&gt;💡 提示：&lt;/strong&gt;&#xA;**💡 关键认知：**Telegram 的普通聊天和秘密聊天是两个完全独立的对话系统。你和同一个人的普通聊天和秘密聊天是分开的，消息不互通。你不能把秘密聊天中的消息转发到普通聊天。&#xA;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;如何开启秘密聊天&#34;&gt;如何开启秘密聊天&lt;/h2&gt;&#xA;&lt;h3 id=&#34;在手机上开启&#34;&gt;在手机上开启&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;iOS（iPhone/iPad）：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;打开 Telegram&lt;/li&gt;&#xA;&lt;li&gt;进入与目标联系人的聊天&lt;/li&gt;&#xA;&lt;li&gt;点击联系人名称进入资料页&lt;/li&gt;&#xA;&lt;li&gt;点击「⋯」（更多选项）&lt;/li&gt;&#xA;&lt;li&gt;选择「开始秘密聊天」&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;&lt;strong&gt;Android：&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;打开 Telegram&lt;/li&gt;&#xA;&lt;li&gt;进入与目标联系人的聊天&lt;/li&gt;&#xA;&lt;li&gt;点击右上角「⋮」（三个点）&lt;/li&gt;&#xA;&lt;li&gt;选择「开始秘密聊天」&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;在电脑上开启&#34;&gt;在电脑上开启&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Telegram Desktop：&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

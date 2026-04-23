@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>翻墙 on 加密聊客</title>
+    <link>https://yourdomain.com/tags/%E7%BF%BB%E5%A2%99/</link>
+    <description>Recent content in 翻墙 on 加密聊客</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://yourdomain.com/tags/%E7%BF%BB%E5%A2%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Signal 下载国内可用方法 — 2026年 iOS/Android 安装、注册与常见问题全攻略</title>
+      <link>https://yourdomain.com/international/signal-download/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://yourdomain.com/international/signal-download/</guid>
+      <description>&lt;h2 id=&#34;signal全球最安全的加密聊天软件&#34;&gt;Signal：全球最安全的加密聊天软件&lt;/h2&gt;&#xA;&lt;p&gt;Signal 是由 Signal Foundation（非营利组织）开发和维护的加密聊天软件，于 2014 年从 Open Whisper Systems 独立出来。它使用自己研发的 Signal Protocol——这是目前被最广泛验证的端到端加密协议，WhatsApp（20 亿用户）、Google Messages、Facebook Messenger 等产品都在使用这个协议。&lt;/p&gt;&#xA;&lt;p&gt;根据 EFF（电子前哨基金会）的安全通讯评分，Signal 在所有加密通讯工具中排名第一，是唯一在所有 7 个安全维度上获得满分的软件。&lt;/p&gt;&#xA;&lt;p&gt;在中国大陆使用 Signal 的主要障碍是&lt;strong&gt;网络限制和下载渠道&lt;/strong&gt;。本文详细讲解如何在 iOS 和 Android 上下载安装 Signal，以及注册过程中的常见问题解决。&lt;/p&gt;&#xA;&lt;h2 id=&#34;signal-的核心优势&#34;&gt;Signal 的核心优势&lt;/h2&gt;&#xA;&lt;p&gt;在开始下载之前，了解一下 Signal 为什么值得折腾：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Signal Protocol&lt;/strong&gt;：经过全球密码学社区 10 年+ 的审查和验证，是端到端加密的金标准&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;非营利运营&lt;/strong&gt;：Signal Foundation 是非营利组织，不接受广告也不出售数据，靠捐赠运营&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;前向保密&lt;/strong&gt;：每次发送新消息都会生成新的加密密钥，即使一个密钥被破解也只影响一条消息&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;密封发件人&lt;/strong&gt;：隐藏消息发送者身份，服务器只知道有人发了消息，不知道是谁发的&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;完全开源&lt;/strong&gt;：所有代码在 GitHub 上公开，任何人可以审计&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;零广告零付费&lt;/strong&gt;：所有功能完全免费，没有任何广告或付费功能&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h2 id=&#34;ios-下载方法&#34;&gt;iOS 下载方法&lt;/h2&gt;&#xA;&lt;p&gt;中国区 App Store 已经下架了 Signal，需要使用非中国区的 Apple ID。&lt;/p&gt;&#xA;&lt;h3 id=&#34;方法一注册外区-apple-id推荐&#34;&gt;方法一：注册外区 Apple ID（推荐）&lt;/h3&gt;&#xA;&lt;p&gt;这是最稳定的方式：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;打开 Safari 浏览器，访问 appleid.apple.com&lt;/li&gt;&#xA;&lt;li&gt;点击「创建你的 Apple ID」&lt;/li&gt;&#xA;&lt;li&gt;地区/地区选择「美国」或「香港」&lt;/li&gt;&#xA;&lt;li&gt;填写信息（姓名用英文，不需要真实信息）&lt;/li&gt;&#xA;&lt;li&gt;付款方式选择「无」（None）&lt;/li&gt;&#xA;&lt;li&gt;邮箱使用你常用的邮箱即可（不需要新的）&lt;/li&gt;&#xA;&lt;li&gt;完成手机号或邮箱验证&lt;/li&gt;&#xA;&lt;li&gt;在 iPhone 上退出当前中国区 Apple ID&lt;/li&gt;&#xA;&lt;li&gt;登录新创建的外区 Apple ID&lt;/li&gt;&#xA;&lt;li&gt;打开 App Store，搜索「Signal」&lt;/li&gt;&#xA;&lt;li&gt;找到 Signal Private Messenger（开发者：Signal Foundation, LLC）&lt;/li&gt;&#xA;&lt;li&gt;点击「获取」安装&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;div class=&#34;callout&#34;&gt;&#xA;  &lt;strong&gt;💡 提示：&lt;/strong&gt;&#xA;**💡 提示：**注册外区 Apple ID 时不需要绑定信用卡，在付款方式选择「无」。这个 Apple ID 只是用来下载 App，不会影响你中国区账号的任何购买记录。下载完 Signal 后可以切回中国区 Apple ID。&#xA;&#xA;&lt;/div&gt;&#xA;&lt;h3 id=&#34;方法二testflight-公测版&#34;&gt;方法二：TestFlight 公测版&lt;/h3&gt;&#xA;&lt;p&gt;Signal 偶尔会通过 TestFlight 提供测试版本，功能与正式版基本一致：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
