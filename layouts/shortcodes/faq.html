@@ -1,9 +1,0 @@
-<div class="faq">
-  <div class="faq-hd">❓ 常见问题</div>
-  {{ range .Page.Params.faq }}
-  <div class="faq-item">
-    <div class="faq-q">{{ .q }}<span class="chev">▼</span></div>
-    <div class="faq-a"><div class="faq-a-inner">{{ .a | markdownify }}</div></div>
-  </div>
-  {{ end }}
-</div>
