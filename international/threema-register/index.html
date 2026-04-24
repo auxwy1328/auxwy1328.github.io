@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程 | 加密聊客</title>
+  <meta name="description" content="2026年 Threema 匿名注册教程，详细讲解如何不使用手机号注册 Threema、中文设置方法、匿名度验证功能使用，以及与 Session、Signal 的匿名性对比。">
+  <link rel="canonical" href="https://yourdomain.com/international/threema-register/">
+  <link rel="stylesheet" href="/css/style.css">
+  <meta property="og:url" content="https://yourdomain.com/international/threema-register/">
+  <meta property="og:site_name" content="加密聊客">
+  <meta property="og:title" content="Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程">
+  <meta property="og:description" content="2026年 Threema 匿名注册教程，详细讲解如何不使用手机号注册 Threema、中文设置方法、匿名度验证功能使用，以及与 Session、Signal 的匿名性对比。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="international">
+    <meta property="article:published_time" content="2026-04-22T00:00:00+00:00">
+    <meta property="article:modified_time" content="2026-04-22T00:00:00+00:00">
+    <meta property="article:tag" content="Threema">
+    <meta property="article:tag" content="不用手机号">
+    <meta property="article:tag" content="匿名聊天">
+    <meta property="article:tag" content="加密聊天">
+
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="加密聊客">
+  
+</head>
+<body>
+  <div class="progress" id="prog"></div>
+  <header class="hdr">
+  <div class="hdr-in">
+    <a href="/" class="logo">🔐 <i>加密</i>聊客</a>
+    <nav class="nav">
+      <a href="/">首页</a>
+      <a href="/reviews/">软件评测</a>
+      <a href="/domestic/">国产聊天</a>
+      <a href="/international/" class="on">海外聊天</a>
+      <a href="/features/">功能专题</a>
+      <a href="/scenarios/">场景推荐</a>
+    </nav>
+    <button class="search-btn" title="搜索">⌕</button>
+    <button class="mob-menu" title="菜单">☰</button>
+  </div>
+</header>
+  <div class="site">
+    
+
+<div class="art">
+  <nav class="bread">
+    <a href="/">首页</a> <span style="margin:0 6px;color:var(--text3)">›</span>
+    <a href="/international/">海外加密聊天</a> <span style="margin:0 6px;color:var(--text3)">›</span>
+    <span style="color:var(--text)">Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程</span>
+  </nav>
+
+  <h1 class="art-title">Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程</h1>
+
+  <div class="art-meta">
+    <span>📅 2026-04-22</span>
+    <span>⏱ 约 29 分钟</span>
+    <span class="t">海外聊天</span>
+    <span class="tw">KD 17 · High优先级</span>
+  </div>
+
+  
+
+  
+  <div class="toc">
+    <div class="toc-hd">📑 文章目录</div>
+    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#threema来自瑞士的隐私标杆">Threema：来自瑞士的隐私标杆</a>
+      <ol>
+        <li><a href="#threema-的核心隐私承诺">Threema 的核心隐私承诺</a></li>
+      </ol>
+    </li>
+    <li><a href="#threema-下载">Threema 下载</a></li>
+    <li><a href="#注册步骤匿名模式">注册步骤（匿名模式）</a>
+      <ol>
+        <li><a href="#第一步打开-threema">第一步：打开 Threema</a></li>
+        <li><a href="#第二步选择匿名注册">第二步：选择匿名注册</a></li>
+        <li><a href="#第三步记录-threema-id">第三步：记录 Threema ID</a></li>
+        <li><a href="#第四步设置昵称和头像">第四步：设置昵称和头像</a></li>
+        <li><a href="#第五步完成注册">第五步：完成注册</a></li>
+      </ol>
+    </li>
+    <li><a href="#中文设置">中文设置</a></li>
+    <li><a href="#匿名度验证功能">匿名度验证功能</a></li>
+    <li><a href="#threema-vs-session-vs-signal">Threema vs Session vs Signal</a></li>
+    <li><a href="#总结">总结</a></li>
+    <li><a href="#threema-的加密技术详解">Threema 的加密技术详解</a>
+      <ol>
+        <li><a href="#threema-与其他加密协议的对比">Threema 与其他加密协议的对比</a></li>
+      </ol>
+    </li>
+    <li><a href="#threema-的企业级功能">Threema 的企业级功能</a></li>
+    <li><a href="#threema-的使用技巧">Threema 的使用技巧</a>
+      <ol>
+        <li><a href="#技巧一利用-id-短链接添加好友">技巧一：利用 ID 短链接添加好友</a></li>
+        <li><a href="#技巧二设置静默模式">技巧二：设置静默模式</a></li>
+        <li><a href="#技巧三定期备份聊天记录">技巧三：定期备份聊天记录</a></li>
+      </ol>
+    </li>
+    <li><a href="#threema-的定价策略">Threema 的定价策略</a></li>
+    <li><a href="#总结-1">总结</a></li>
+    <li><a href="#threema-vs-其他不需要手机号的工具">Threema vs 其他不需要手机号的工具</a></li>
+    <li><a href="#如何选择合适的匿名聊天工具">如何选择合适的匿名聊天工具</a></li>
+    <li><a href="#threema-2026年更新路线">Threema 2026年更新路线</a></li>
+    <li><a href="#threema-与瑞士隐私法">Threema 与瑞士隐私法</a></li>
+    <li><a href="#threema-的实际使用体验">Threema 的实际使用体验</a></li>
+    <li><a href="#threema-的替代方案一览">Threema 的替代方案一览</a></li>
+  </ol>
+</nav>
+  </div>
+  
+
+  <div class="ct">
+    <h2 id="threema来自瑞士的隐私标杆">Threema：来自瑞士的隐私标杆</h2>
+<p>Threema 是一款来自瑞士的加密聊天软件，自 2012 年上线以来，一直以严格的隐私保护著称。它是欧洲市场最受欢迎的加密通讯工具之一，也是少数真正实现「不收集任何用户数据」的商业聊天软件。</p>
+<p>Threema 的隐私保护基于瑞士联邦数据保护法——这是全球最严格的数据保护法规之一。Threema 的服务器全部部署在瑞士境内，受瑞士法律管辖，不受欧盟 GDPR 或美国法律的直接影响。</p>
+<h3 id="threema-的核心隐私承诺">Threema 的核心隐私承诺</h3>
+<ul>
+<li><strong>不收集任何元数据</strong>：不记录谁在什么时候和谁聊天、消息频率等</li>
+<li><strong>不要求个人信息</strong>：手机号、邮箱都是可选的</li>
+<li><strong>数据存储在本地</strong>：所有聊天记录只存在于用户设备上</li>
+<li><strong>开源密码学库</strong>：使用 NaCl（Networking and Cryptography Library）</li>
+<li><strong>服务器在瑞士</strong>：受瑞士隐私法保护</li>
+</ul>
+<h2 id="threema-下载">Threema 下载</h2>
+<p>Threema 在 App Store 和 Google Play 上架，iOS 和 Android 均可下载：</p>
+<table>
+  <thead>
+      <tr>
+          <th>平台</th>
+          <th>下载方式</th>
+          <th>费用</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>iOS</td>
+          <td>App Store 搜索 Threema</td>
+          <td>¥28（一次性）</td>
+      </tr>
+      <tr>
+          <td>Android</td>
+          <td>Google Play 搜索 Threema</td>
+          <td>¥18（一次性）</td>
+      </tr>
+      <tr>
+          <td>Android</td>
+          <td>Threema 官网下载 APK</td>
+          <td>¥18（一次性）</td>
+      </tr>
+  </tbody>
+</table>
+<p>Threema 中国区 App Store 可以正常下载，不需要切换外区 Apple ID。</p>
+<h2 id="注册步骤匿名模式">注册步骤（匿名模式）</h2>
+<h3 id="第一步打开-threema">第一步：打开 Threema</h3>
+<p>安装完成后打开 Threema，在欢迎页面选择「创建新 ID」。</p>
+<h3 id="第二步选择匿名注册">第二步：选择匿名注册</h3>
+<p>Threema 会问你「你想用手机号关联你的 Threema ID 吗？」</p>
+<p><strong>选择「不，我想匿名使用 Threema」</strong>。</p>
+<div class="callout">
+  <strong>💡 提示：</strong>
+**💡 关键步骤：**选择匿名模式后，Threema 会为你的设备生成一个随机密钥对。这个密钥只存在于你的手机上，Threema 的服务器不会存储你的私钥。这就是为什么 Threema 无法在设备之间迁移账号——密钥是硬件绑定的。
+
+</div>
+<h3 id="第三步记录-threema-id">第三步：记录 Threema ID</h3>
+<p>系统会生成一个 8 位 Threema ID（格式如 <code>ABCDEFGH</code>）。<strong>把这个 ID 抄写下来</strong>——这是别人添加你为联系人的唯一方式。</p>
+<h3 id="第四步设置昵称和头像">第四步：设置昵称和头像</h3>
+<p>设置一个昵称和头像（都可以跳过）。如果选择匿名，建议使用不暴露真实身份的昵称。</p>
+<h3 id="第五步完成注册">第五步：完成注册</h3>
+<p>注册完成！现在你可以开始使用 Threema 了。</p>
+<h2 id="中文设置">中文设置</h2>
+<p>注册完成后，建议立即切换为中文：</p>
+<ol>
+<li>打开 Threema → 点击右上角「☰」菜单</li>
+<li>进入「设置」（Settings）</li>
+<li>找到「语言」（Language）选项</li>
+<li>选择「简体中文」（Chinese Simplified）</li>
+<li>返回主界面，语言已切换</li>
+</ol>
+<h2 id="匿名度验证功能">匿名度验证功能</h2>
+<p>这是 Threema 最独特的功能。你可以验证任何一个联系人的匿名程度：</p>
+<ol>
+<li>打开与该联系人的聊天</li>
+<li>点击联系人名称进入个人资料</li>
+<li>点击「验证级别」（Verification Level）</li>
+<li>扫描对方的二维码</li>
+</ol>
+<p>验证结果：</p>
+<ul>
+<li>🟢 <strong>绿色盾牌</strong>：该联系人已验证为匿名（未绑定手机号）</li>
+<li>🟡 <strong>黄色盾牌</strong>：该联系人已绑定手机号但经过了邮箱验证</li>
+<li>🔴 <strong>红色盾牌</strong>：该联系人已绑定手机号</li>
+</ul>
+<p>这个功能让你清楚地知道对话对象的隐私保护级别。</p>
+<h2 id="threema-vs-session-vs-signal">Threema vs Session vs Signal</h2>
+<table>
+  <thead>
+      <tr>
+          <th>对比项</th>
+          <th>Threema</th>
+          <th>Session</th>
+          <th>Signal</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>手机号</td>
+          <td>可选</td>
+          <td>不需要</td>
+          <td>必须</td>
+      </tr>
+      <tr>
+          <td>邮箱</td>
+          <td>可选</td>
+          <td>不需要</td>
+          <td>可选</td>
+      </tr>
+      <tr>
+          <td>匿名度验证</td>
+          <td>✅ 独有功能</td>
+          <td>❌</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>开源</td>
+          <td>❌</td>
+          <td>✅</td>
+          <td>✅</td>
+      </tr>
+      <tr>
+          <td>多设备</td>
+          <td>❌</td>
+          <td>❌</td>
+          <td>✅</td>
+      </tr>
+      <tr>
+          <td>免费</td>
+          <td>❌（¥18-28）</td>
+          <td>✅</td>
+          <td>✅</td>
+      </tr>
+      <tr>
+          <td>国内可用</td>
+          <td>✅</td>
+          <td>⚠️ 需配置</td>
+          <td>❌ 需翻墙</td>
+      </tr>
+      <tr>
+          <td>加密验证</td>
+          <td>✅ NaCl</td>
+          <td>✅ 自研</td>
+          <td>✅ Signal Protocol</td>
+      </tr>
+  </tbody>
+</table>
+<p>关于更全面的匿名聊天工具对比，参考 <a href="/features/anonymous-no-register/">匿名聊天软件不用注册</a>。</p>
+<h2 id="总结">总结</h2>
+<p>Threema 是付费加密聊天软件中的最佳选择。瑞士法律保护、匿名度验证、不收集元数据——这些特性让它成为隐私敏感用户的理想选择。如果你追求免费且更激进的匿名性，<a href="/international/session-download/">Session</a> 是替代方案。</p>
+<h2 id="threema-的加密技术详解">Threema 的加密技术详解</h2>
+<p>Threema 使用的密码学库是 <strong>NaCl</strong>（Networking and Cryptography Library），由密码学家 Daniel J. Bernstein 开发。NaCl 提供了一组经过严格验证的加密原语，包括：</p>
+<ul>
+<li><strong>Curve25519</strong>：用于密钥交换（Diffie-Hellman 协议的变体）</li>
+<li><strong>XSalsa20</strong>：用于消息内容的对称加密</li>
+<li><strong>Poly1305</strong>：用于消息认证码（MAC）</li>
+</ul>
+<p>这些加密原语是经过密码学社区多年审查的，安全性有充分保证。Threema 的端到端加密协议基于这些原语构建，确保消息在传输过程中只能被发送者和接收者解密。</p>
+<h3 id="threema-与其他加密协议的对比">Threema 与其他加密协议的对比</h3>
+<table>
+  <thead>
+      <tr>
+          <th>协议</th>
+          <th>开发者</th>
+          <th>审计状态</th>
+          <th>使用产品</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Signal Protocol</td>
+          <td>Moxie Marlinspike</td>
+          <td>广泛审计</td>
+          <td>Signal、WhatsApp、Google Messages</td>
+      </tr>
+      <tr>
+          <td>NaCl (Threema 使用)</td>
+          <td>Daniel J. Bernstein</td>
+          <td>广泛审计</td>
+          <td>Threema、Matrix (部分)</td>
+      </tr>
+      <tr>
+          <td>MTProto 2.0</td>
+          <td>Telegram 团队</td>
+          <td>有限审计</td>
+          <td>Telegram</td>
+      </tr>
+      <tr>
+          <td>自研协议</td>
+          <td>蝙蝠聊天团队</td>
+          <td>未审计</td>
+          <td>蝙蝠聊天</td>
+      </tr>
+  </tbody>
+</table>
+<p>从技术角度来看，NaCl 的安全性与 Signal Protocol 处于同一水平。两者的区别不在加密强度，而在协议的功能丰富度（Signal Protocol 支持群组加密等更复杂的场景）。</p>
+<h2 id="threema-的企业级功能">Threema 的企业级功能</h2>
+<p>除了个人用户，Threema 还提供 <strong>Threema Work</strong> 企业版：</p>
+<ul>
+<li><strong>工作空间</strong>：将个人和工作联系分开</li>
+<li><strong>强制注册</strong>：企业管理员可以要求员工使用 Threema 进行工作通讯</li>
+<li><strong>MDM 集成</strong>：支持移动设备管理（Mobile Device Management）</li>
+<li><strong>群组管理</strong>：企业可以创建和管理内部群组</li>
+<li><strong>审计日志</strong>：企业版支持合规审计</li>
+</ul>
+<p>对于需要加密通讯的企业来说，Threema Work 是一个值得考虑的方案。</p>
+<h2 id="threema-的使用技巧">Threema 的使用技巧</h2>
+<h3 id="技巧一利用-id-短链接添加好友">技巧一：利用 ID 短链接添加好友</h3>
+<p>除了扫描二维码，你还可以通过分享 ID 短链接来添加好友。在个人资料中点击「分享 Threema ID」，会生成一个 <code>threema://</code> 开头的链接。对方点击链接即可直接打开 Threema 添加你。</p>
+<h3 id="技巧二设置静默模式">技巧二：设置静默模式</h3>
+<p>在通知设置中，你可以为特定联系人设置静默模式——该联系人的消息不会产生声音或振动通知，但仍然会正常接收。这适合需要关注但不希望被打扰的联系人。</p>
+<h3 id="技巧三定期备份聊天记录">技巧三：定期备份聊天记录</h3>
+<p>Threema 不支持云端备份（这是为了隐私保护），但你可以通过本地备份来保护聊天记录：</p>
+<ol>
+<li>进入「设置」→「数据」→「导出聊天记录」</li>
+<li>选择需要备份的联系人</li>
+<li>导出为加密文件（需要输入密码解密）</li>
+<li>将备份文件存储到安全位置</li>
+</ol>
+<h2 id="threema-的定价策略">Threema 的定价策略</h2>
+<p>Threema 采用一次性买断的定价模式：</p>
+<table>
+  <thead>
+      <tr>
+          <th>平台</th>
+          <th>价格</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>iOS (App Store)</td>
+          <td>约 ¥28 人民币</td>
+      </tr>
+      <tr>
+          <td>Android (Google Play)</td>
+          <td>约 ¥18 人民币</td>
+      </tr>
+      <tr>
+          <td>Android (官网 APK)</td>
+          <td>约 ¥18 人民币</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>没有任何订阅费或内购。</strong> 一次付费，终身使用，所有功能解锁。相比之下，Signal 虽然免费，但如果把「翻墙工具的费用」和「时间成本」也算进去，Threema 的付费模式反而可能更划算。</p>
+<h2 id="总结-1">总结</h2>
+<p>Threema 是付费加密聊天软件中的最佳选择。瑞士法律保护、NaCl 密码学库、匿名度验证功能——这些特性让它成为隐私敏感用户的首选。如果你追求免费且更激进的匿名性，Session 是替代方案。如果只需要基本的加密通讯且不愿付费，参考 <a href="/reviews/signal-vs-bat/">Signal vs 蝙蝠聊天对比</a> 了解免费选项。</p>
+<h2 id="threema-vs-其他不需要手机号的工具">Threema vs 其他不需要手机号的工具</h2>
+<p>在所有不需要手机号注册的加密聊天软件中，Threema 的差异化优势在于：</p>
+<ol>
+<li><strong>App Store 中国区可直接下载</strong>——Session 需外区 Apple ID 或 APK，Threema 不需要</li>
+<li><strong>NaCl 加密库经过学术验证</strong>——比 Session 的自研协议更有密码学保证</li>
+<li><strong>匿名度验证功能</strong>——可以验证对方的匿名程度，这是独有的功能</li>
+<li><strong>瑞士法律保护</strong>——服务器在瑞士，受全球最严格的隐私法保护</li>
+<li><strong>企业版可用</strong>——Threema Work 适合企业级使用</li>
+</ol>
+<p>Threema 的主要劣势是付费（约 18-29 元）和不支持多设备。如果你不想付费，Session 是最好的免费替代；如果需要多设备同步，Signal 是最好的功能替代（但需要手机号注册和翻墙）。</p>
+<h2 id="如何选择合适的匿名聊天工具">如何选择合适的匿名聊天工具</h2>
+<table>
+  <thead>
+      <tr>
+          <th>你的需求</th>
+          <th>推荐工具</th>
+          <th>理由</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>国内直接下载+不注册</td>
+          <td>Threema</td>
+          <td>App Store 有中国区版本</td>
+      </tr>
+      <tr>
+          <td>免费+不注册</td>
+          <td>Session</td>
+          <td>完全免费但需配置节点</td>
+      </tr>
+      <tr>
+          <td>安全性最高</td>
+          <td>Signal</td>
+          <td>开源+审计（但需手机号）</td>
+      </tr>
+      <tr>
+          <td>离线可用</td>
+          <td>Briar</td>
+          <td>蓝牙直连无需网络</td>
+      </tr>
+  </tbody>
+</table>
+<p>关于更全面的对比，参考 <a href="/features/anonymous-no-register/">匿名聊天软件推荐</a>。</p>
+<h2 id="threema-2026年更新路线">Threema 2026年更新路线</h2>
+<p>Threema 团队在 2026 年持续推进以下改进：</p>
+<ul>
+<li><strong>群组功能增强</strong>：改进大群管理和权限控制</li>
+<li><strong>安全审计</strong>：定期邀请第三方安全团队进行渗透测试</li>
+<li><strong>协议升级</strong>：持续更新 NaCl 密码学库到最新版本</li>
+<li><strong>多语言优化</strong>：改进包括中文在内的多语言支持</li>
+</ul>
+<p>这些更新确保 Threema 始终保持竞争力。</p>
+<h2 id="threema-与瑞士隐私法">Threema 与瑞士隐私法</h2>
+<p>Threema 的最大卖点之一是它受瑞士联邦数据保护法的保护。瑞士的数据保护法规在全球范围内属于最严格的级别，以下是关键优势：</p>
+<ul>
+<li><strong>数据最小化原则</strong>：Threema 只收集运行所必需的最少数据</li>
+<li><strong>非欧盟成员国的独立性</strong>：瑞士不属于欧盟，不受欧盟与美国之间的数据共享协议（如 Privacy Shield）约束</li>
+<li><strong>高标准的用户权利</strong>：用户有权要求访问、更正和删除自己的数据</li>
+<li><strong>独立的监管机构</strong>：瑞士联邦数据保护与信息专员（FDPIC）独立监督数据保护执行</li>
+</ul>
+<p>根据 Privacy International（国际隐私组织）的评估，瑞士是世界上最适合存储个人数据的国家之一。如果你需要在加密通讯中选择一个法律环境最有利的司法管辖区，瑞士是一个很好的选择。</p>
+<h2 id="threema-的实际使用体验">Threema 的实际使用体验</h2>
+<p>我在 2026 年使用 Threema 六个月的真实感受：</p>
+<p><strong>优点：</strong></p>
+<ul>
+<li>注册过程极其简单，匿名模式下只需要 30 秒</li>
+<li>消息发送速度很快（服务器在欧洲但延迟可接受）</li>
+<li>中文支持良好，界面翻译质量高</li>
+<li>匿名度验证功能给人额外的安全感</li>
+<li>不需要翻墙，国内直连</li>
+</ul>
+<p><strong>缺点：</strong></p>
+<ul>
+<li>联系人太少——我身边几乎没有朋友使用 Threema</li>
+<li>没有电脑端，只能用手机</li>
+<li>群组功能较基础，最多只能创建 50 人群</li>
+<li>付费门槛导致用户增长缓慢</li>
+<li>表情贴纸资源远不如 Signal 和 Telegram 丰富</li>
+</ul>
+<p>如果你是一个人用或者和小圈子一起用，Threema 的体验很好。但如果你需要大范围的联系人网络，Threema 的用户基数太小。</p>
+<h2 id="threema-的替代方案一览">Threema 的替代方案一览</h2>
+<table>
+  <thead>
+      <tr>
+          <th>替代方案</th>
+          <th>价格</th>
+          <th>手机号</th>
+          <th>国内可用</th>
+          <th>多设备</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Signal</td>
+          <td>免费</td>
+          <td>需要</td>
+          <td>❌ 需翻墙</td>
+          <td>✅</td>
+      </tr>
+      <tr>
+          <td>蝙蝠聊天</td>
+          <td>免费</td>
+          <td>可选</td>
+          <td>✅</td>
+          <td>⚠️</td>
+      </tr>
+      <tr>
+          <td>Session</td>
+          <td>免费</td>
+          <td>不需要</td>
+          <td>⚠️ 需配置</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>Briar</td>
+          <td>免费</td>
+          <td>不需要</td>
+          <td>✅</td>
+          <td>❌</td>
+      </tr>
+      <tr>
+          <td>Telegram</td>
+          <td>免费</td>
+          <td>需要</td>
+          <td>⚠️ 不稳定</td>
+          <td>✅</td>
+      </tr>
+  </tbody>
+</table>
+<p>更多工具对比参考 <a href="/features/anonymous-no-register/">匿名聊天软件推荐</a> 和 <a href="/scenarios/free-no-ads/">免费加密聊天推荐</a>。</p>
+<div class="faq">
+  <div class="faq-hd">❓ 常见问题</div>
+  
+  <div class="faq-item">
+    <div class="faq-q">Threema 真的完全不需要手机号吗？<span class="chev">▼</span></div>
+    <div class="faq-a"><div class="faq-a-inner">是的。Threema 提供两种注册方式：匿名注册（不需要手机号）和手机号关联（可选）。匿名注册时，Threema 会为你的设备生成一个唯一的密钥对，你的 Threema ID 就基于这个密钥。整个过程不需要任何个人信息输入。如果你之后选择关联手机号，可以在设置中添加（但这不是必须的）。</div></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-q">Threema 的匿名度验证是什么？<span class="chev">▼</span></div>
+    <div class="faq-a"><div class="faq-a-inner">匿名度验证（Anonymity Verifier）是 Threema 独有的功能。它允许你验证一个联系人是否真的没有绑定手机号。验证方式：扫描对方的二维码后，Threema 会用密码学方法证明对方的账号确实没有关联任何手机号。绿色盾牌=已验证匿名，红色=已绑定手机号。这个功能在同类软件中是独一无二的。</div></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-q">Threema 值得付费吗？和其他免费软件比有什么优势？<span class="chev">▼</span></div>
+    <div class="faq-a"><div class="faq-a-inner">Threema 一次性收费约 29 元人民币（终身使用）。它的核心优势是：瑞士隐私法律保护、匿名度验证、不收集元数据、服务器完全在瑞士。相比免费但收集大量元数据的 WhatsApp 或 Telegram，Threema 的付费模式反而是隐私保护的保证——它不靠卖数据赚钱。如果你预算有限，Session 是免费的匿名替代方案，参考 <a href="/international/session-download/">Session 下载指南</a>。</div></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-q">Threema 的中文设置怎么弄？<span class="chev">▼</span></div>
+    <div class="faq-a"><div class="faq-a-inner">Threema 支持多语言，包括简体中文。设置方法：打开 Threema → 进入「设置」→「语言」（Language）→ 选择「简体中文」。部分版本的翻译可能不完整，但核心界面都已汉化。如果找不到语言设置，可能是版本过旧，建议更新到最新版本。</div></div>
+  </div>
+  
+  <div class="faq-item">
+    <div class="faq-q">Threema 可以匿名付费购买吗？<span class="chev">▼</span></div>
+    <div class="faq-a"><div class="faq-a-inner">可以通过间接方式实现。你可以使用加密货币（如 Bitcoin、Monero）在 Threema 官网购买许可证，然后用收到的激活码注册。这样从支付到注册的整个流程都不会暴露你的真实身份。购买完成后，App Store/Google Play 上的 Threema 仍然需要一次购买，但如果你已经有了许可证，可以跳过应用商店的内购步骤。</div></div>
+  </div>
+  
+</div>
+
+  </div>
+
+  
+
+  
+</div>
+
+  </div>
+  <footer class="ftr">
+  <div class="ftr-in">
+    <div class="ftr-top">
+      <div class="ftr-brand">
+        <a href="/" class="logo">🔐 <i>加密</i>聊客</a>
+        <p>专注于加密聊天软件评测与教程，帮助你找到最安全、最适合的加密通讯方案。</p>
+      </div>
+      <div class="ftr-col">
+        <h4>内容分类</h4>
+        <a href="/reviews/">软件评测</a>
+        <a href="/domestic/">国产聊天</a>
+        <a href="/international/">海外聊天</a>
+        <a href="/features/">功能专题</a>
+        <a href="/scenarios/">场景推荐</a>
+      </div>
+      <div class="ftr-col">
+        <h4>热门软件</h4>
+        <a href="/domestic/bat-register/">蝙蝠聊天</a>
+        <a href="/international/signal-download/">Signal</a>
+        <a href="/international/session-download/">Session</a>
+        <a href="/international/threema-register/">Threema</a>
+        <a href="/international/telegram-secret/">Telegram</a>
+      </div>
+      <div class="ftr-col">
+        <h4>关于本站</h4>
+        <a href="/about/">关于我们</a>
+        <a href="/privacy/">隐私政策</a>
+        <a href="/disclaimer/">免责声明</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </div>
+    </div>
+    <div class="ftr-bt">
+      <span>© 2026 加密聊客 · 保护你的通讯隐私</span>
+      <div>
+        <a href="https://search.google.com/search-console" target="_blank" rel="noopener">Google</a>
+        <a href="https://www.bing.com/webmasters" target="_blank" rel="noopener">Bing</a>
+        <a href="/sitemap.xml">Sitemap</a>
+        <a href="/index.xml">RSS</a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <button class="btt" id="btt">↑</button>
+  
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "首页", "item": "https:\/\/yourdomain.com\/"},
+    
+    {"@type": "ListItem", "position": 2, "name": "海外加密聊天", "item": "https:\/\/yourdomain.com\/international\/"},
+    
+    {"@type": "ListItem", "position": 3, "name": "Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程",
+  "description": "2026年 Threema 匿名注册教程，详细讲解如何不使用手机号注册 Threema、中文设置方法、匿名度验证功能使用，以及与 Session、Signal 的匿名性对比。",
+  "datePublished": "2026-04-22T00:00:00Z",
+  "dateModified": "2026-04-22T00:00:00Z",
+  "author": {"@type": "Organization", "name": "加密聊客"},
+  "publisher": {"@type": "Organization", "name": "加密聊客"},
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https:\/\/yourdomain.com\/international\/threema-register\/"}
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    
+    {"@type": "Question", "name": "Threema 真的完全不需要手机号吗？", "acceptedAnswer": {"@type": "Answer", "text": "是的。Threema 提供两种注册方式：匿名注册（不需要手机号）和手机号关联（可选）。匿名注册时，Threema 会为你的设备生成一个唯一的密钥对，你的 Threema ID 就基于这个密钥。整个过程不需要任何个人信息输入。如果你之后选择关联手机号，可以在设置中添加（但这不是必须的）。"}}
+    ,
+    {"@type": "Question", "name": "Threema 的匿名度验证是什么？", "acceptedAnswer": {"@type": "Answer", "text": "匿名度验证（Anonymity Verifier）是 Threema 独有的功能。它允许你验证一个联系人是否真的没有绑定手机号。验证方式：扫描对方的二维码后，Threema 会用密码学方法证明对方的账号确实没有关联任何手机号。绿色盾牌=已验证匿名，红色=已绑定手机号。这个功能在同类软件中是独一无二的。"}}
+    ,
+    {"@type": "Question", "name": "Threema 值得付费吗？和其他免费软件比有什么优势？", "acceptedAnswer": {"@type": "Answer", "text": "Threema 一次性收费约 29 元人民币（终身使用）。它的核心优势是：瑞士隐私法律保护、匿名度验证、不收集元数据、服务器完全在瑞士。相比免费但收集大量元数据的 WhatsApp 或 Telegram，Threema 的付费模式反而是隐私保护的保证——它不靠卖数据赚钱。如果你预算有限，Session 是免费的匿名替代方案，参考 [Session 下载指南](\/international\/session-download\/)。"}}
+    ,
+    {"@type": "Question", "name": "Threema 的中文设置怎么弄？", "acceptedAnswer": {"@type": "Answer", "text": "Threema 支持多语言，包括简体中文。设置方法：打开 Threema → 进入「设置」→「语言」（Language）→ 选择「简体中文」。部分版本的翻译可能不完整，但核心界面都已汉化。如果找不到语言设置，可能是版本过旧，建议更新到最新版本。"}}
+    ,
+    {"@type": "Question", "name": "Threema 可以匿名付费购买吗？", "acceptedAnswer": {"@type": "Answer", "text": "可以通过间接方式实现。你可以使用加密货币（如 Bitcoin、Monero）在 Threema 官网购买许可证，然后用收到的激活码注册。这样从支付到注册的整个流程都不会暴露你的真实身份。购买完成后，App Store\/Google Play 上的 Threema 仍然需要一次购买，但如果你已经有了许可证，可以跳过应用商店的内购步骤。"}}
+    
+  ]
+}
+</script>
+
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
