@@ -20,6 +20,7 @@ emoji: "🔐"
 gradient: "linear-gradient(135deg,#7c2d12,#9a3412)"
 category_label: 海外聊天
 draft: false
+og_image: "/images/international/threema-register/og.webp"
 faq:
   - q: "Threema 真的完全不需要手机号吗？"
     a: "是的。Threema 提供两种注册方式：匿名注册（不需要手机号）和手机号关联（可选）。匿名注册时，Threema 会为你的设备生成一个唯一的密钥对，你的 Threema ID 就基于这个密钥。整个过程不需要任何个人信息输入。如果你之后选择关联手机号，可以在设置中添加（但这不是必须的）。"
@@ -33,9 +34,13 @@ faq:
     a: "可以通过间接方式实现。你可以使用加密货币（如 Bitcoin、Monero）在 Threema 官网购买许可证，然后用收到的激活码注册。这样从支付到注册的整个流程都不会暴露你的真实身份。购买完成后，App Store/Google Play 上的 Threema 仍然需要一次购买，但如果你已经有了许可证，可以跳过应用商店的内购步骤。"
 ---
 
+
+
+
+
 ## Threema：来自瑞士的隐私标杆
 
-Threema 是一款来自瑞士的加密聊天软件，自 2012 年上线以来，一直以严格的隐私保护著称。它是欧洲市场最受欢迎的加密通讯工具之一，也是少数真正实现「不收集任何用户数据」的商业聊天软件。
+Threema 是一款来自瑞士的加密聊天软件，自 2012 年上线以来，一直以严格的隐私保护著称。它是欧洲市场最受欢迎的加密通讯工具之一，也是少数真正实现「不收集任何用户数据」的商业聊天软件。了解更多可参考[Threema 官方网站](https://threema.ch/)。
 
 Threema 的隐私保护基于瑞士联邦数据保护法——这是全球最严格的数据保护法规之一。Threema 的服务器全部部署在瑞士境内，受瑞士法律管辖，不受欧盟 GDPR 或美国法律的直接影响。
 
@@ -59,6 +64,11 @@ Threema 在 App Store 和 Google Play 上架，iOS 和 Android 均可下载：
 
 Threema 中国区 App Store 可以正常下载，不需要切换外区 Apple ID。
 
+
+![img2](/images/international/threema-register/img2.webp)
+
+
+
 ## 注册步骤（匿名模式）
 
 ### 第一步：打开 Threema
@@ -81,7 +91,8 @@ Threema 会问你「你想用手机号关联你的 Threema ID 吗？」
 
 ### 第四步：设置昵称和头像
 
-设置一个昵称和头像（都可以跳过）。如果选择匿名，建议使用不暴露真实身份的昵称。
+设置一个昵称和头像（都可以跳过）。如果选择匿名
+，建议使用不暴露真实身份的昵称。
 
 ### 第五步：完成注册
 
@@ -90,6 +101,7 @@ Threema 会问你「你想用手机号关联你的 Threema ID 吗？」
 ## 中文设置
 
 注册完成后，建议立即切换为中文：
+
 
 1. 打开 Threema → 点击右上角「☰」菜单
 2. 进入「设置」（Settings）
@@ -102,7 +114,8 @@ Threema 会问你「你想用手机号关联你的 Threema ID 吗？」
 这是 Threema 最独特的功能。你可以验证任何一个联系人的匿名程度：
 
 1. 打开与该联系人的聊天
-2. 点击联系人名称进入个人资料
+2. 点击
+联系人名称进入个人资料
 3. 点击「验证级别」（Verification Level）
 4. 扫描对方的二维码
 
@@ -127,6 +140,10 @@ Threema 会问你「你想用手机号关联你的 Threema ID 吗？」
 | 加密验证 | ✅ NaCl | ✅ 自研 | ✅ Signal Protocol |
 
 关于更全面的匿名聊天工具对比，参考 [匿名聊天软件不用注册](/features/anonymous-no-register/)。
+
+
+
+![img3](/images/international/threema-register/img3.webp)
 
 ## 总结
 
@@ -185,6 +202,10 @@ Threema 不支持云端备份（这是为了隐私保护），但你可以通过
 3. 导出为加密文件（需要输入密码解密）
 4. 将备份文件存储到安全位置
 
+
+
+![img4](/images/international/threema-register/img4.webp)
+
 ## Threema 的定价策略
 
 Threema 采用一次性买断的定价模式：
@@ -225,6 +246,10 @@ Threema 的主要劣势是付费（约 18-29 元）和不支持多设备。如�
 关于更全面的对比，参考 [匿名聊天软件推荐](/features/anonymous-no-register/)。
 
 ## Threema 2026年更新路线
+
+
+
+![img5](/images/international/threema-register/img5.webp)
 
 Threema 团队在 2026 年持续推进以下改进：
 

@@ -20,6 +20,7 @@ emoji: "✈️"
 gradient: "linear-gradient(135deg,#374151,#1f2937)"
 category_label: 海外聊天
 draft: false
+og_image: "/images/international/telegram-secret/og.webp"
 faq:
   - q: "Telegram 普通聊天和秘密聊天有什么区别？"
     a: "这是最重要的问题。Telegram 的普通聊天（你日常使用的对话）默认不加密——消息存储在 Telegram 的服务器上。虽然 Telegram 本身不会主动读取你的消息，但服务器上存储着加密前的消息数据，理论上如果服务器被攻破或受到法律要求，这些数据可能被获取。秘密聊天则使用端到端加密，消息只在你的设备和对方的设备上解密，Telegram 的服务器无法读取。简单来说：普通聊天方便但不加密，秘密聊天加密但不方便。"
@@ -33,9 +34,12 @@ faq:
     a: "是的。秘密聊天中的所有内容——文字、图片、视频、文件、语音消息——都经过端到端加密。但你无法转发秘密聊天中的媒体到普通聊天，也无法保存到相册（除非对方截屏）。这些限制是端到端加密设计的一部分，目的是防止加密内容通过其他途径泄露。"
 ---
 
+
+
+
 ## 大多数 Telegram 用户不知道的「秘密聊天」功能
 
-Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp），但它有一个鲜为人知的事实：**Telegram 的普通聊天默认不使用端到端加密**。
+Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp），但它有一个鲜为人知的事实：**Telegram 的普通聊天默认不使用端到端加密**。了解更多可参考[Telegram 官方 FAQ](https://telegram.org/faq)。
 
 这意味着你每天在 Telegram 上发送的消息，都是以未加密的形式存储在 Telegram 的服务器上的。虽然 Telegram 声称不会主动读取用户消息，但服务器上存储着明文数据。
 
@@ -55,7 +59,13 @@ Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp�
 
 {{< callout >}}
 **💡 关键认知：**Telegram 的普通聊天和秘密聊天是两个完全独立的对话系统。你和同一个人的普通聊天和秘密聊天是分开的，消息不互通。你不能把秘密聊天中的消息转发到普通聊天。
+
+
+![img2](/images/international/telegram-secret/img2.webp)
+
 {{< /callout >}}
+
+
 
 ## 如何开启秘密聊天
 
@@ -87,7 +97,9 @@ Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp�
 当你发起秘密聊天后，你会看到一个确认界面，包含以下信息：
 
 - 🔒 所有消息都经过端到端加密
-- 📱 消息只在你的设备上可见
+- 📱 消
+
+息只在你的设备上可见
 - ⏱️ 对方需要确认才能开始
 
 对方收到你的秘密聊天邀请后，可以选择「接受」或「忽略」。
@@ -113,8 +125,12 @@ Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp�
 4. 这条消息会在对方阅读后按设定时间销毁
 
 {{< callout >}}
-**💡 使用技巧：**Telegram 的阅后即焚时间可以在 1 秒到 1 周之间精细调节，比 Signal（最短 30 秒）更灵活。如果你对阅后即焚有更高需求，参考 [阅后即焚推荐](/features/burn-after-read/) 了解各软件的对比。
-{{< /callout >}}
+**💡 使用技巧：**Telegram 的阅后即焚时间可以在 1 
+
+秒到 1 周之间精细调节，比 Signal（最短 30 秒）更灵活。如果你对阅后即焚有更高需求，参考 [阅后即焚推荐](/features/burn-after-read/) 了解各软件的对比。
+{{<
+
+ /callout >}}
 
 ## 验证端到端加密
 
@@ -126,6 +142,10 @@ Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp�
 4. 与对方设备上显示的指纹对比
 
 如果两端显示的表情符号完全一致，说明端到端加密是完整的。如果不一致，可能存在中间人攻击（极其罕见）。
+
+
+
+![img3](/images/international/telegram-secret/img3.webp)
 
 ## 秘密聊天的限制
 
@@ -149,6 +169,10 @@ Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp�
 
 Telegram 的秘密聊天是保护隐私的重要功能，但需要手动开启。**建议：对于敏感对话，始终使用秘密聊天。** 对于日常闲聊，普通聊天更方便。关键是要清楚两者的区别，根据对话的敏感程度灵活选择。
 
+
+
+
+![img4](/images/international/telegram-secret/img4.webp)
 
 ## Telegram 加密通讯的高阶技巧
 
@@ -209,6 +233,10 @@ Telegram 默认将聊天记录上传到云端（Telegram Cloud）。如果你想
 - **Session**：完全匿名，去中心化。参考 [Session 下载指南](/international/session-download/)。
 
 ## 总结
+
+
+
+![img5](/images/international/telegram-secret/img5.webp)
 
 Telegram 的秘密聊天功能是实现端到端加密的有效手段，但需要你主动开启。建议：**敏感对话始终使用秘密聊天，并设置合理的自毁定时器。** 对于日常闲聊，普通聊天更方便，但要注意它不是加密的。
 

@@ -3,7 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <meta name="msvalidate.01" content="58B8BC3B56964E4B68D451072143B15E">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="preconnect" href="https://chatjiami.com" crossorigin>
+  <link rel="icon" href="/favicon.ico" sizes="32x32">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <title>{{ if .IsHome }}{{ .Site.Params.homepage_title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="/css/style.css">
@@ -23,5 +28,17 @@
   <button class="btt" id="btt">↑</button>
   {{ partial "schema.html" . }}
   <script src="/js/main.js"></script>
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <div id="search-overlay" style="display:none;position:fixed;inset:0;background:rgba(9,11,17,.92);z-index:9999;justify-content:center;align-items:center;padding:20px">
+    <div id="search-container" style="width:100%;max-width:640px">
+      <div id="pagefind-search" style="position:relative"></div>
+      <div id="search-close" style="text-align:right;margin-top:12px"><button onclick="document.getElementById('search-overlay').style.display='none'" style="color:var(--text2);background:var(--surface);border:1px solid var(--border);padding:8px 20px;border-radius:8px;cursor:pointer;font-size:14px">关闭搜索</button></div>
+    </div>
+  </div>
+  <script>
+  document.querySelector('.search-btn').addEventListener('click',function(){document.getElementById('search-overlay').style.display='flex'});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')document.getElementById('search-overlay').style.display='none';if((e.ctrlKey||e.metaKey)&&e.key==='k'){e.preventDefault();document.getElementById('search-overlay').style.display='flex';}});
+  </script>
 </body>
 </html>

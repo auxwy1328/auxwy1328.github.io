@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /tags/
 
-Sitemap: https://yourdomain.com/sitemap.xml
+Sitemap: https://chatjiami.com/sitemap.xml

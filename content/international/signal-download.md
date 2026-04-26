@@ -20,6 +20,7 @@ emoji: "📲"
 gradient: "linear-gradient(135deg,#1e3a5f,#164e63)"
 category_label: 海外聊天
 draft: false
+og_image: "/images/international/signal-download/og.webp"
 faq:
   - q: "Signal 为什么在中国大陆无法直接使用？"
     a: "Signal 的服务器部署在美国，且在中国网络环境中被屏蔽。这不是 Signal 特有的情况——大多数海外通讯工具（Telegram、WhatsApp、Line 等）在中国都受到不同程度的限制。原因是端到端加密技术使得这些平台的通讯内容无法被监控。如果你不想翻墙，可以考虑国产替代方案，参考国产加密聊天推荐。"
@@ -33,9 +34,13 @@ faq:
     a: "Signal 支持账号迁移。在新手机上安装 Signal 后，选择从旧设备迁移（需要两台手机在同一网络下）。迁移过程会传输你的聊天记录和联系人。如果旧手机已不可用，可以在注册时选择从 Signal 的加密备份恢复（前提是你之前开启了云端备份）。"
 ---
 
+
+
+
+
 ## Signal：全球最安全的加密聊天软件
 
-Signal 是由 Signal Foundation（非营利组织）开发和维护的加密聊天软件，于 2014 年从 Open Whisper Systems 独立出来。它使用自己研发的 Signal Protocol——这是目前被最广泛验证的端到端加密协议，WhatsApp（20 亿用户）、Google Messages、Facebook Messenger 等产品都在使用这个协议。
+Signal 是由 Signal Foundation（非营利组织）开发和维护的加密聊天软件，于 2014 年从 Open Whisper Systems 独立出来。它使用自己研发的 Signal Protocol——这是目前被最广泛验证的端到端加密协议，WhatsApp（20 亿用户）、Google Messages、Facebook Messenger 等产品都在使用这个协议。了解更多可参考[Signal 官方安全白皮书](https://signal.org/docs/security/)。
 
 根据 EFF（电子前哨基金会）的安全通讯评分，Signal 在所有加密通讯工具中排名第一，是唯一在所有 7 个安全维度上获得满分的软件。
 
@@ -45,12 +50,17 @@ Signal 是由 Signal Foundation（非营利组织）开发和维护的加密聊�
 
 在开始下载之前，了解一下 Signal 为什么值得折腾：
 
+
+![img2](/images/international/signal-download/img2.webp)
+
+
 1. **Signal Protocol**：经过全球密码学社区 10 年+ 的审查和验证，是端到端加密的金标准
 2. **非营利运营**：Signal Foundation 是非营利组织，不接受广告也不出售数据，靠捐赠运营
 3. **前向保密**：每次发送新消息都会生成新的加密密钥，即使一个密钥被破解也只影响一条消息
 4. **密封发件人**：隐藏消息发送者身份，服务器只知道有人发了消息，不知道是谁发的
 5. **完全开源**：所有代码在 GitHub 上公开，任何人可以审计
 6. **零广告零付费**：所有功能完全免费，没有任何广告或付费功能
+
 
 ## iOS 下载方法
 
@@ -83,7 +93,8 @@ Signal 偶尔会通过 TestFlight 提供测试版本，功能与正式版基本�
 
 1. 安装 TestFlight
 2. 打开 Signal 官网找到 TestFlight 邀请链接
-3. 在 TestFlight 中安装 Signal
+3. 在 T
+estFlight 中安装 Signal
 
 TestFlight 版本的稳定性稍低于正式版，但可以体验最新功能。
 
@@ -119,12 +130,17 @@ TestFlight 版本的稳定性稍低于正式版，但可以体验最新功能。
 
 F-Droid 是一个专注于开源 Android 应用的第三方应用商店：
 
-1. 在浏览器中访问 f-droid.org
+1. 在
+浏览器中访问 f-droid.org
 2. 下载 F-Droid APK 并安装
 3. 在 F-Droid 中搜索「Signal」
 4. 安装 Signal
 
 F-Droid 的优势是它只收录开源应用，所有 APK 都经过验证。
+
+
+
+![img3](/images/international/signal-download/img3.webp)
 
 ## 注册流程详解
 
@@ -157,6 +173,7 @@ Signal 会通过短信发送一个 6 位数字验证码。注意以下几点：
 - 等待 1-2 分钟后重试
 
 ### 第四步：输入验证码
+
 
 输入收到的 6 位数字验证码，验证通过后自动创建你的 Signal 账号。
 
@@ -200,6 +217,10 @@ Signal 会通过短信发送一个 6 位数字验证码。注意以下几点：
 
 ## Signal vs 蝙蝠聊天
 
+
+![img4](/images/international/signal-download/img4.webp)
+
+
 如果你觉得 Signal 的翻墙门槛太高，国产替代方案也是可行的选择。详细对比参考 [Signal vs 蝙蝠聊天](/reviews/signal-vs-bat/)。
 
 | 对比项 | Signal | 蝙蝠聊天 |
@@ -237,6 +258,10 @@ Signal 在国内的下载和使用需要额外的步骤（外区 Apple ID 或 AP
 
 
 ## Signal 的替代方案对比
+
+
+![img5](/images/international/signal-download/img5.webp)
+
 
 如果你在下载或使用 Signal 的过程中遇到困难，以下替代方案值得考虑：
 

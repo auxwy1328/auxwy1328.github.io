@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <text x="10" y="35" font-family="system-ui, sans-serif" font-size="28" font-weight="800">
+    <tspan>🔐</tspan><tspan fill="#2dd4bf" font-style="italic">加密</tspan><tspan fill="#e2e5ef">聊客</tspan>
+  </text>
+</svg>

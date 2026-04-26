@@ -18,6 +18,12 @@
 
   {{ with $p.Params.dl_app }}{{ partial "download-card.html" (dict "slug" . "Site" $p.Site) }}{{ end }}
 
+  {{ with (index $p.Params.images 0) }}
+  <div class="art-cover">
+    <img src="{{ . }}" alt="{{ $p.Title }}" width="800" height="450" loading="eager" />
+  </div>
+  {{ end }}
+
   {{ if gt (len $p.TableOfContents) 0 }}
   <div class="toc">
     <div class="toc-hd">📑 文章目录</div>

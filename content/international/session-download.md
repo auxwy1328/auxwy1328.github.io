@@ -21,6 +21,7 @@ gradient: "linear-gradient(135deg,#1e1b4b,#312e81)"
 category_label: 海外聊天
 dl_app: session
 draft: false
+og_image: "/images/international/session-download/og.webp"
 faq:
   - q: "Session 下载后国内可以直接使用吗？"
     a: "下载后默认可能无法直接连接到 Session 网络，因为 Service Node（服务节点）大多部署在海外。国内用户通常需要手动配置节点才能正常使用。配置方法：打开 Session App → 进入设置 → 找到节点/代理设置 → 输入可用的 Service Node 地址。网络上有很多社区维护的节点列表可以参考。配置完成后，Session 在国内的使用体验和 Signal 差不多。"
@@ -34,9 +35,13 @@ faq:
     a: "下载 Session 的 APK 或通过 Google Play 安装通常需要翻墙（Google Play 在国内不可用）。iOS App Store 中国区可能没有 Session，需要切换到外区 Apple ID。下载完成后配置好节点就可以在国内正常使用。如果翻墙困难，可以考虑 Threema（App Store 中国区有）或国产的蝙蝠聊天（无需翻墙）。"
 ---
 
+
+
+
+
 ## Session 是什么？
 
-Session 是一款基于去中心化网络的加密聊天软件，由 Oxen Project（原 Loki Project）团队开发。它的核心特点可以用一个字概括——**匿名**。
+Session 是一款基于去中心化网络的加密聊天软件，由 Oxen Project（原 Loki Project）团队开发。它的核心特点可以用一个字概括——**匿名**。了解更多可参考[Session 官方网站](https://getsession.org/)。
 
 Session 不要求你提供手机号、邮箱、用户名或任何个人信息。当你第一次打开 Session 时，它会自动生成一个随机的 Session ID（类似 `05...` 开头的十六位字符串），这就是你在 Session 网络中的唯一身份。没有密码、没有手机号、没有邮箱——你的身份只是一个无法追溯到你的随机字符串。
 
@@ -98,7 +103,12 @@ Session 由 Oxen Privacy Tech Pty Ltd 开发，这是一家注册在澳大利亚
 
 {{< callout >}}
 **⚠️ 安全提醒：**建议通过 Google Play 或 Session 官网下载，不要从第三方应用商店下载。第三方来源的 APK 可能被篡改。下载时注意核对开发者名称是「Oxen Privacy Tech Pty Ltd」。
+
+
+![img2](/images/international/session-download/img2.webp)
+
 {{< /callout >}}
+
 
 ## 首次使用配置
 
@@ -133,6 +143,7 @@ Session 会显示 12 个英文单词的恢复短语。**这是你唯一恢复账
 3. 输入可用的 Service Node 地址（格式：`域名:端口`）
 4. 保存并等待连接成功
 
+
 节点地址可以在 Session 社区论坛或 GitHub 上找到社区维护的列表。选择延迟低、在线时间长的节点。
 
 ## Session 的核心功能
@@ -151,9 +162,14 @@ Session 会显示 12 个英文单词的恢复短语。**这是你唯一恢复账
 
 ### Session 的最大限制：不支持多设备
 
-这是 Session 匿名性设计的代价。为了确保消息只存在于你的设备上，Session 不支持多设备同步。你不能同时在手机和电脑上登录同一个 Session 账号。
+这是 Session 匿名性设计的代价。为了确保消息只存在于你的设备上，Session
+ 不支持多设备同步。你不能同时在手机和电脑上登录同一个 Session 账号。
 
 如果你需要多设备同步，Signal 是更好的选择，参考 [Signal 下载方法](/international/signal-download/)。
+
+
+
+![img3](/images/international/session-download/img3.webp)
 
 ## 国内使用优化建议
 
@@ -167,7 +183,8 @@ Session 会显示 12 个英文单词的恢复短语。**这是你唯一恢复账
 
 ### 网络优化
 
-如果 Session 消息发送延迟较高：
+如果 Session 消
+息发送延迟较高：
 - 切换到不同的节点
 - 确保手机没有被省电模式限制后台网络
 - 尝试切换 Wi-Fi 和移动数据
@@ -185,6 +202,10 @@ Session 会显示 12 个英文单词的恢复短语。**这是你唯一恢复账
 关于更全面的对比，参考 [匿名聊天软件不用注册](/features/anonymous-no-register/)。
 
 | 对比项 | Session | Threema | Signal |
+
+
+![img4](/images/international/session-download/img4.webp)
+
 |--------|---------|---------|--------|
 | 匿名程度 | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐ | ⭐⭐ |
 | 加密验证 | ⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
@@ -225,6 +246,10 @@ Session 网络使用 OXEN（OXEN）代币作为节点激励机制。Service Node
 对于普通用户来说，OXEN 代币与你无关——你只需要使用 Session 聊天，不需要购买或持有任何代币。但了解这个机制有助于理解 Session 网络为什么能够持续运行。
 
 
+
+
+
+![img5](/images/international/session-download/img5.webp)
 
 ## Session 的常见使用问题
 
