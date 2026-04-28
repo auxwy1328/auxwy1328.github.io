@@ -43,7 +43,7 @@ Telegram 是全球使用量第二大的即时通讯软件（仅次于 WhatsApp�
 
 这意味着你每天在 Telegram 上发送的消息，都是以未加密的形式存储在 Telegram 的服务器上的。虽然 Telegram 声称不会主动读取用户消息，但服务器上存储着明文数据。
 
-如果你需要真正的端到端加密，必须手动开启 **「秘密聊天」（Secret Chat）**。
+如果你需要真正的端到端加密，必须手动开启 **「秘密聊天」（Secret Chat）**。如果你还不确定 Telegram 整体够不够安全，可以参考这篇 [Telegram 安全分析](https://telegramsecure.com/safety/is-telegram-safe/) 了解更全面的安全评估。
 
 ## 秘密聊天 vs 普通聊天：核心差异
 
@@ -185,7 +185,7 @@ Telegram 的秘密聊天是保护隐私的重要功能，但需要手动开启�
 3. 输入代理服务器地址和端口
 4. 保存并测试连接
 
-Telegram 内置代理的优势：不需要额外的 VPN 应用，流量消耗更少，延迟更低。
+Telegram 内置代理的优势：不需要额外的 VPN 应用，流量消耗更少，延迟更低。如果你刚接触 Telegram，建议配合这篇 [Telegram 新手设置教程](https://telegramsecure.com/guides/setup/) 完成基础配置。
 
 ### 技巧二：使用两步验证保护账号
 
