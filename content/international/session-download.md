@@ -1,6 +1,6 @@
 ---
 title: "Session 匿名聊天下载 — 2026年完全去中心化的私密通讯工具安装配置教程"
-description: "2026年 Session 匿名聊天下载安装教程，详细讲解 iOS、Android 平台安装方法、国内使用节点配置步骤、恢复短语备份方法，以及与 Signal、Threema 的匿名性和安全性对比分析。"
+description: "2026年Session匿名聊天下载安装完整图文教程详细讲解iOS和Android平台的安装方法国内网络环境下去中心化节点配置步骤十二词恢复短语的安全备份方法以及与SignalThreema在匿名保护强度和安全性方面的深入对比分析帮你快速上手这款匿名加密通讯工具"
 date: 2026-04-22
 lastmod: 2026-04-22
 categories:
@@ -33,6 +33,7 @@ faq:
     a: "在匿名性方面 Session 理论上比 Signal 更强。Signal 使用手机号注册，你的身份和手机号绑定；Session 完全不需要手机号，用户只通过随机 ID 识别。在元数据保护方面 Session 的去中心化网络使得任何单点都无法获取完整元数据。但在加密技术验证程度方面 Signal 更胜一筹。总结：Session 匿名性更强，Signal 加密验证更充分。"
   - q: "下载 Session 需要翻墙吗？"
     a: "下载 Session 的 APK 或通过 Google Play 安装通常需要翻墙（Google Play 在国内不可用）。iOS App Store 中国区可能没有 Session，需要切换到外区 Apple ID。下载完成后配置好节点就可以在国内正常使用。如果翻墙困难，可以考虑 Threema（App Store 中国区有）或国产的蝙蝠聊天（无需翻墙）。"
+images: ["/images/international/session-download/cover.jpg"]
 ---
 
 

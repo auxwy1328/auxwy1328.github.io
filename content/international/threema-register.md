@@ -1,6 +1,6 @@
 ---
 title: "Threema 不用手机号注册 — 2026年瑞士加密聊天的匿名注册与中文设置教程"
-description: "2026年 Threema 匿名注册教程，详细讲解如何不使用手机号注册 Threema、中文设置方法、匿名度验证功能使用，以及与 Session、Signal 的匿名性对比。"
+description: "2026年Threema匿名注册完整图文教程详细讲解如何不使用手机号注册Threema账号的完整操作步骤中文界面设置方法匿名度等级验证功能的实用技巧以及与SessionSignal在匿名保护强度和数据安全性方面的全面深入对比分析推荐阅读，确保你的每一次通讯都安全可靠。"
 date: 2026-04-22
 lastmod: 2026-04-22
 categories:
@@ -32,6 +32,7 @@ faq:
     a: "Threema 支持多语言，包括简体中文。设置方法：打开 Threema → 进入「设置」→「语言」（Language）→ 选择「简体中文」。部分版本的翻译可能不完整，但核心界面都已汉化。如果找不到语言设置，可能是版本过旧，建议更新到最新版本。"
   - q: "Threema 可以匿名付费购买吗？"
     a: "可以通过间接方式实现。你可以使用加密货币（如 Bitcoin、Monero）在 Threema 官网购买许可证，然后用收到的激活码注册。这样从支付到注册的整个流程都不会暴露你的真实身份。购买完成后，App Store/Google Play 上的 Threema 仍然需要一次购买，但如果你已经有了许可证，可以跳过应用商店的内购步骤。"
+images: ["/images/international/threema-register/cover.jpg"]
 ---
 
 
