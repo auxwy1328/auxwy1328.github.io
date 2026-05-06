@@ -48,8 +48,6 @@ faq:
 
 手机监听不是电影里的情节，它是真实存在且门槛越来越低的技术。我总结了目前最常见的几种监听方式：
 
-{{< figure src="/images/features/anti-spying-software/spying-threats.webp" alt="手机监听的常见手段图解" caption="手机监听技术示意图" >}}
-
 ### 间谍软件（Spyware）
 
 这是最直接也最危险的监听方式。间谍软件安装在手机上之后，可以录制通话、读取聊天消息、开启摄像头和麦克风、获取 GPS 定位——基本上你的手机对监听者来说就是透明的。2024 年曝光的 Pegasus 间谍软件事件震动全球，这款由 NSO Group 开发的工具可以零点击入侵 iPhone，连打开链接都不需要。
@@ -108,8 +106,6 @@ Wire 是另一个不错的选择，开源、端到端加密、支持匿名注册
 
 如果你需要更全面的对比，可以看看我写的[最安全的加密聊天软件测评](/reviews/safest-encrypted-chat/)。
 
-{{< figure src="/images/features/anti-spying-software/encryption-comparison.webp" alt="各加密软件的防监听能力对比" caption="主流加密聊天软件安全等级对比" >}}
-
 ## 手机安全设置建议
 
 选对了聊天软件只是第一步，手机本身的安全设置同样重要。以下是我自己实践下来觉得最有效的几项设置：
@@ -143,8 +139,6 @@ Wire 是另一个不错的选择，开源、端到端加密、支持匿名注册
 **奇怪的应用行为**：应用图标消失但仍在后台运行、通知栏出现你不认识的通知、手机自动重启或关机。
 
 **更可靠的检测方法**：使用专业工具。iMazing（macOS）可以检测 iOS 设备上的间谍软件和配置文件；Malwarebytes Security 可以扫描 Android 设备上的恶意应用。iPhone 用户还可以在 设置 → 隐私与安全性 → 分析与改进 中查看分析数据，如果发现大量异常的系统日志，可能是间谍软件留下的痕迹。
-
-{{< figure src="/images/features/anti-spying-software/security-check.webp" alt="手机安全检查清单" caption="手机监听检测方法和安全检查清单" >}}
 
 ## 全面防护方案
 

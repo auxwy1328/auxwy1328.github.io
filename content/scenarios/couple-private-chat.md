@@ -1,8 +1,8 @@
 ---
 title: "情侣用什么聊天软件保护隐私 — 2026年适合情侣使用的私密通讯工具推荐"
 description: "情侣用什么聊天软件才能有效保护隐私安全本文从加密安全等级私密功能丰富度阅后即焚支持界面美观度等多个核心维度对比推荐多款适合情侣日常使用的私密通讯工具帮助你与伴侣建立安全私密的日常沟通渠道全面守护恋爱隐私推荐，避免因选择不当导致隐私泄露的风险。"
-date: 2026-05-10
-lastmod: 2026-05-10
+date: 2026-05-02
+lastmod: 2026-05-02
 categories:
   - scenarios
 tags:
@@ -21,7 +21,7 @@ emoji: "💕"
 gradient: "linear-gradient(135deg,#e11d48,#7c2d12)"
 category_label: 场景推荐
 dl_app: signal
-draft: true
+draft: false
 images:
   - "/images/scenarios/couple-private-chat/cover.webp"
 og_image: "/images/scenarios/couple-private-chat/og.webp"
