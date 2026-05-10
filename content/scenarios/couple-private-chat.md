@@ -23,7 +23,7 @@ category_label: 场景推荐
 dl_app: signal
 draft: false
 images:
-  - "/images/scenarios/couple-private-chat/cover.webp"
+  - "/images/scenarios/couple-private-chat/cover.jpg"
 og_image: "/images/scenarios/couple-private-chat/og.webp"
 faq:
   - q: "微信聊天能保护情侣隐私吗？"

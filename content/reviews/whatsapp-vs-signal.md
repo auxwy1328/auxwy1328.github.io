@@ -23,7 +23,7 @@ category_label: 软件评测
 dl_app: signal
 draft: false
 images:
-  - "/images/reviews/whatsapp-vs-signal/cover.webp"
+  - "/images/reviews/whatsapp-vs-signal/cover.jpg"
 og_image: "/images/reviews/whatsapp-vs-signal/og.webp"
 faq:
   - q: "WhatsApp 真的比 Signal 差吗？"

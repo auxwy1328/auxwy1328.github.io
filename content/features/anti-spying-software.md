@@ -23,7 +23,7 @@ category_label: 功能专题
 dl_app: signal
 draft: false
 images:
-  - "/images/features/anti-spying-software/cover.webp"
+  - "/images/features/anti-spying-software/cover.jpg"
 og_image: "/images/features/anti-spying-software/og.webp"
 faq:
   - q: "手机真的会被监听吗？"
@@ -48,7 +48,6 @@ faq:
 
 手机监听不是电影里的情节，它是真实存在且门槛越来越低的技术。我总结了目前最常见的几种监听方式：
 
-{{< figure src="/images/features/anti-spying-software/spying-threats.webp" alt="手机监听的常见手段图解" caption="手机监听技术示意图" >}}
 
 ### 间谍软件（Spyware）
 
@@ -108,7 +107,6 @@ Wire 是另一个不错的选择，开源、端到端加密、支持匿名注册
 
 如果你需要更全面的对比，可以看看我写的[最安全的加密聊天软件测评](/reviews/safest-encrypted-chat/)。
 
-{{< figure src="/images/features/anti-spying-software/encryption-comparison.webp" alt="各加密软件的防监听能力对比" caption="主流加密聊天软件安全等级对比" >}}
 
 ## 手机安全设置建议
 
@@ -144,7 +142,6 @@ Wire 是另一个不错的选择，开源、端到端加密、支持匿名注册
 
 **更可靠的检测方法**：使用专业工具。iMazing（macOS）可以检测 iOS 设备上的间谍软件和配置文件；Malwarebytes Security 可以扫描 Android 设备上的恶意应用。iPhone 用户还可以在 设置 → 隐私与安全性 → 分析与改进 中查看分析数据，如果发现大量异常的系统日志，可能是间谍软件留下的痕迹。
 
-{{< figure src="/images/features/anti-spying-software/security-check.webp" alt="手机安全检查清单" caption="手机监听检测方法和安全检查清单" >}}
 
 ## 全面防护方案
 

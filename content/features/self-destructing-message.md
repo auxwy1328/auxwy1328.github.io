@@ -48,7 +48,7 @@ dl_app: signal
 
 draft: false
 
-  - "/images/features/self-destructing-message/cover.webp"
+  - "/images/features/self-destructing-message/cover.jpg"
 
 og_image: "/images/features/self-destructing-message/og.webp"
 

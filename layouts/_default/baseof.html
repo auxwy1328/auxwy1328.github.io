@@ -10,6 +10,7 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <title>{{ if .IsHome }}{{ .Site.Params.homepage_title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else if .Params.description }}{{ .Params.description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+  <meta name="keywords" content="加密聊天软件,加密通讯,端到端加密聊天,蝙蝠聊天,Signal下载,Telegram私密,阅后即焚,安全聊天">
   <link rel="canonical" href="{{ .Permalink }}">
   <link rel="stylesheet" href="/css/style.css">
   {{ template "_internal/opengraph.html" . }}

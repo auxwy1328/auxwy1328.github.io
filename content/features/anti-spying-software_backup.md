@@ -23,7 +23,7 @@ category_label: 功能专题
 dl_app: signal
 draft: false
 images:
-  - "/images/features/anti-spying-software/cover.webp"
+  - "/images/features/anti-spying-software/cover.jpg"
 og_image: "/images/features/anti-spying-software/og.webp"
 faq:
   - q: "手机真的会被监听吗？"
