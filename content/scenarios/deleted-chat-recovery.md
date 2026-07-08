@@ -163,6 +163,6 @@ WhatsApp 有"替我删除"和"删除所有人"两个选项。
 
 **结论**：用 Signal 或 Telegram 密聊，开消失消息，删备份文件——这是目前最安全的聊天记录销毁方案。
 
-想选最安全的加密聊天工具？看这里：[最安全加密聊天软件排名](/reviews/safest-encrypted-chat/) 和 [Signal vs Telegram 对比](/compare/telegram-vs-signal/)
+想选最安全的加密聊天工具？看这里：[最安全加密聊天软件排名](/reviews/safest-encrypted-chat/) 和 [Signal vs Telegram 对比](/reviews/telegram-vs-signal/)
 
 > 💡 **温馨提示**：如果你担心聊天记录泄露，最靠谱的办法不是"删了之后能不能恢复"，而是从一开始就用端到端加密 + 消失消息。删除只是亡羊补牢，[加密聊天记录保护](/features/encrypt-chat-history/) 才是根本。

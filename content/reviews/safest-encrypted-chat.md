@@ -60,7 +60,7 @@ faq:
 
 
 
-![img2](/images/reviews/safest-encrypted-chat/img2)
+![img2](/images/reviews/safest-encrypted-chat/img2.webp)
 ## 2026年10款加密聊天软件安全性深度对比
 
 我实际测试了 10 款工具，从加密实现、代码透明度、隐私政策、独立审计等维度打分。满分 100 分，评分标准参考了 EFF 的安全通讯评分指南以及各软件最新公开的审计报告。
@@ -77,8 +77,6 @@ faq:
 | 8 | **Wickr** | AES-256 + E2EE | ✅ | 多次审计（已关停） | 良好 | — |
 | 9 | **易往 (Ecoo)** | 自研 E2EE | ❌ | 未见公开审计 | 一般 | 68 |
 | 10 | **商小信** | 自研 E2EE | ❌ | 未见公开审计 | 一般 | 65 |
-
-![加密聊天软件安全评分对比表](/images/reviews/safest-encrypted-chat/comparison-table.webp)
 
 几个需要说明的点：
 
@@ -123,8 +121,6 @@ faq:
 | 隐私政策透明度 | 10% |
 | 可用性与抗审查能力 | 10% |
 
-![安全评估方法论说明](/images/reviews/safest-encrypted-chat/methodology.webp)
-
 ![不同场景下的加密聊天推荐](/images/reviews/safest-encrypted-chat/img4.webp)
 
 ## 不同场景下的安全推荐
@@ -150,8 +146,6 @@ faq:
 ### 极端隐私需求
 
 **推荐：SimpleX Chat + Tails OS。** SimpleX 的去中心化架构天然适合这种场景——无账号、无手机号、服务器无法关联用户身份。配合 Tails OS（一个在 U 盘上运行的匿名操作系统，关机后不留任何痕迹），可以实现极高的通讯安全性。代价是操作复杂度很高，适合技术背景较强的用户。
-
-![不同隐私需求下的加密聊天软件推荐方案](/images/reviews/safest-encrypted-chat/recommendations.webp)
 
 ## 写在最后
 

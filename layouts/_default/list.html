@@ -16,7 +16,7 @@
   <div class="al">
     {{ range .Pages.ByDate.Reverse }}
     <div class="li">
-      <div class="li-img" style="background:{{ .Params.gradient | default "linear-gradient(135deg,#1e2336,#11141d)" }}">{{ .Params.emoji | default "📝" }}</div>
+      <div class="li-img" {{ if .Params.images }}style="background-image:url({{ index .Params.images 0 | relURL }});background-size:cover;background-position:center"{{ else }}style="background:{{ .Params.gradient | default `linear-gradient(135deg,#1e2336,#11141d)` }}"{{ end }}>{{ if not .Params.images }}{{ .Params.emoji | default "📝" }}{{ end }}</div>
       <div class="li-bd">
         <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
         {{ with .Params.description }}<p>{{ . }}</p>{{ end }}

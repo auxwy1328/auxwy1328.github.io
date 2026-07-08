@@ -282,7 +282,7 @@ Session 的流量消耗比 Signal 和 Telegram 稍大，因为消息需要通过
 
 ## Session 的安全审计与透明度
 
-与 Signal 和 Threema 不同，Session 的代码虽然开源，但尚未经过大规模的第三方安全审计。根据 OWS（Open Whisper Systems）的安全审计标准，一个加密通讯工具的审计应该包括：
+与 Signal 和 Threema 不同，Session 的代码虽然开源，但尚未经过大规模的第三方安全审计。根据 OWS（Open Whisper Systems）的安全审计标准，一个[加密通讯工具](/)的审计应该包括：
 
 - 代码审计：检查加密实现的正确性
 - 渗透测试：模拟攻击场景测试系统安全性

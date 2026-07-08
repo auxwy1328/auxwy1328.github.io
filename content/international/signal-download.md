@@ -43,7 +43,7 @@ images: ["/images/international/signal-download/cover.jpg"]
 
 Signal 是由 Signal Foundation（非营利组织）开发和维护的加密聊天软件，于 2014 年从 Open Whisper Systems 独立出来。它使用自己研发的 Signal Protocol——这是目前被最广泛验证的端到端加密协议，WhatsApp（20 亿用户）、Google Messages、Facebook Messenger 等产品都在使用这个协议。了解更多可参考[Signal 官方安全白皮书](https://signal.org/docs/security/)。
 
-根据 EFF（电子前哨基金会）的安全通讯评分，Signal 在所有加密通讯工具中排名第一，是唯一在所有 7 个安全维度上获得满分的软件。
+根据 EFF（电子前哨基金会）的安全通讯评分，Signal 在所有[加密通讯工具](/)中排名第一，是唯一在所有 7 个安全维度上获得满分的软件。
 
 在中国大陆使用 Signal 的主要障碍是**网络限制和下载渠道**。本文详细讲解如何在 iOS 和 Android 上下载安装 Signal，以及注册过程中的常见问题解决。
 

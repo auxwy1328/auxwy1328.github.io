@@ -35,6 +35,7 @@ relativeURLs = false
     style = "dracula"
 
 [params]
+  ogImage = "/images/og-home.jpg"
   homepage_title = "加密聊天软件推荐 - 2026年最安全的加密通讯工具评测与教程"
   description = "加密聊客专注加密聊天软件评测与使用教程，深度对比Signal、蝙蝠聊天、Telegram、Session、Threema等20+款加密通讯工具的端到端加密、匿名注册、阅后即焚等核心功能，帮你找到最安全、最适合的私密通讯方案。"
   author = "加密聊客"

@@ -131,7 +131,7 @@ faq:
 
 **但现实中，"安全"是一个谱系，不是开关。** Telegram 的秘密聊天同样安全，只要你正确使用。而 Telegram 在功能、生态、易用性上的优势是实打实的。对于绝大多数普通用户来说，Telegram 的安全等级已经绰绰有余。关于 Telegram 安全性的全面评估，推荐这篇 [Telegram 安全深度分析](https://telegramsecure.com/safety/is-telegram-safe/)，从协议到隐私政策都有覆盖。
 
-关键在于：**搞清楚你要保护什么，然后选对工具。** 如果你的聊天内容本身敏感（法律、医疗、政治），选 Signal 不犹豫。如果你只是不想被广告公司和数据掮客偷窥，Telegram 完全够用。想看更详细的逐项对比，这篇 [Telegram vs Signal 深度对比](https://telegramsecure.com/compare/telegram-vs-signal/) 补充了不少技术细节，值得一读。
+关键在于：**搞清楚你要保护什么，然后选对工具。** 如果你的聊天内容本身敏感（法律、医疗、政治），选 Signal 不犹豫。如果你只是不想被广告公司和数据掮客偷窥，Telegram 完全够用。想看更详细的逐项对比，这篇 [Telegram vs Signal 深度对比](https://telegramsecure.com/reviews/telegram-vs-signal/) 补充了不少技术细节，值得一读。
 
 安全从来不是一个软件能解决的事，它是一种习惯。
 

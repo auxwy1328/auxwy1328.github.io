@@ -17,7 +17,7 @@
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="{{ if .IsHome }}website{{ else }}article{{ end }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
-  {{ with .Params.og_image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  {{ with .Params.og_image }}<meta property="og:image" content="{{ . | absURL }}">{{ else }}{{ with .Site.Params.ogImage }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}{{ end }}
 </head>
 <body>
   <div class="progress" id="prog"></div>
